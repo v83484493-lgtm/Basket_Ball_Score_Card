@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Digital-7";
+    src: url("./digital-7.ttf") format("truetype");
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content:center
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    height: 500px;
+    width: 800px;
+    background-color:rgb(3, 3, 66)
+
+}
+.team{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 4px;
+    width: 100%;
+    color: antiquewhite;
+
+}
+.displayContainer{
+    display: flex;
+    width: 100%;
+
+}
+.scoreDisplay{
+    width: 50%;
+    height: 300px;
+    background-color: black;
+    color: rgba(255, 0, 0, 0.633);
+    font-family: Digital-7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    border: 2px dotted gray;
+}
+.btnContainer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.BTN{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+.btn{
+    padding: 15px 30px;
+    border-radius: 115px;
+    font-family: Digital-7;
+    font-size:larger;
+}
+
+
